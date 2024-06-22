@@ -131,3 +131,33 @@ margin-bottom: 20px;
 }
 .imagenepet{max-width: 500px ;}
 .fondo{background-color: #f1f1f1;}
+
+.geolocalizacion{
+  flex:auto;
+
+  background-color: #00000054;
+padding: 20px; 
+border-radius:  5px;
+height: auto;
+width: 50%;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.961); }
+
+.geolocalizacion img {max-width: 100%;
+height: auto;
+margin-bottom: 20px;}
+
+.titulogeo {padding: 10px 10px ;
+  border: 2px rgb(0, 0, 0);
+  background-color: #0000005c;
+  font-family: "Jaro", sans-serif;
+  font-size:3rem;
+  font-optical-sizing:auto;
+  font-weight:400;
+  font-style:italic;
+  color:black;
+  font-size:2em;
+margin-bottom: 20px;
+  text-align: center;
+  padding: 5px;}
+
+  .fondogeolocalizacion {background-color: aqua;}
