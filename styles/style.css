@@ -53,7 +53,7 @@ height: auto;
   transition: background-color 0.3s ease;
 display: inline;}
 
-.navbar-item a:hover {background-color: #ff0202;
+.navbar-item a:hover {background-color: #ffc106;
   border-radius: 4px;}
 
   .footer { width: 100%;
@@ -116,7 +116,7 @@ border-radius: 5px;
 transition: background-color 0.3s;
 }
 
-.sidebar ul li a:hover{ background-color: #ff0000;
+.sidebar ul li a:hover{ background-color: #ffc106;
 color: #000000;
 }
 .contenido{ flex: 3;
