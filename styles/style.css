@@ -1,5 +1,5 @@
-.paginicial{background-image:url(../images/Fondo\ 720.png);
-background-size: cover;
+.paginicial{background-image:url(../images/retro3.png);
+background-size:cover;
 height: 100%;
 
     display: flex;
@@ -35,7 +35,7 @@ height: auto;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background:rgba(255, 255, 255, 0.2) ;
+  background:rgba(75, 210, 237, 0.626) ;
   background-size: cover;
   backdrop-filter: blur(10px);
   
@@ -46,14 +46,14 @@ height: auto;
   gap: 20px;}
 
 .navbar-item a{ position: relative;
-  color: white;
+  color: rgb(0, 0, 0);
   text-decoration: none;
   font-size: 1em;
   padding: 10px;
   transition: background-color 0.3s ease;
 display: inline;}
 
-.navbar-item a:hover {background-color: #ffc106;
+.navbar-item a:hover {background-color: #ffffff;
   border-radius: 4px;}
 
   .footer { width: 100%;
@@ -130,7 +130,8 @@ height: auto;
 margin-bottom: 20px;
 }
 .imagenepet{max-width: 500px ;}
-.fondo{background-color: #f1f1f1;}
+.fondo{background-image: url(../images/retro3.png);
+background-size: cover;}
 
 .geolocalizacion{  display: flex;
   margin-left: 100px;
@@ -138,7 +139,7 @@ margin-bottom: 20px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #ffffff7e; 
+  background-color: #ffffffcc; 
   padding: 10px;
   border-radius: 10px;
   text-align: center;
@@ -155,7 +156,7 @@ margin-bottom: 20px;}
   padding-bottom: 10px;
   border-radius: 20cm;
   border: 2px rgb(0, 0, 0);
-  background-color: #ffffffc4;
+  background-color: #3a99edc9;
   font-family: "Jaro", sans-serif;
   font-size:3rem;
   font-optical-sizing:auto;
@@ -177,14 +178,38 @@ margin-bottom: 20px;}
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #e3d481; 
+    background-image: url(../images/retro3.png);
+    background-size: cover; 
     flex-direction: column;}
 
     .principal{ 
       display:flex;
       flex-direction: column;
       padding: 30px;
-      background-color: #ffffff7e;
+      background-color: #ffffffd3;
       
        }
-       .fondomuro{background-color: #dad2a7;}
+       .fondomuro{background-image:url(../images/retro3.png);
+      background-size: cover;}
+
+       .cuerpoorganigrama{background-image:url(../images/retro3.png);
+        background-size: cover;
+        display:flex;
+      justify-content: center;
+    align-items: center;
+  flex-direction: column;}
+
+  .estructuraimagen{display: flex;
+  justify-content: center;
+align-items: center;
+width: 100%;
+height: 100%;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.961);}
+
+.imagenorganigrama{ width: 90%;
+padding: 10px;
+border: 2px solid black;
+display: inline-block;}
+
+.imagenorganigrama img{ width:100% ;
+height: auto;}
