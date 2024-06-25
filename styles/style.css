@@ -239,4 +239,8 @@ border-top: none;
   border-radius: 20px;
   text-align: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  max-width: 100%}}
+  max-width: 100%}
+
+  .certificadosb img {
+    height: 50px;
+    margin-right: 10px;  }
