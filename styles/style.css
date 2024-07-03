@@ -107,8 +107,11 @@ padding: 20px;}
 }
 .sidebar ul { list-style: none;
 }
-.sidebar ul li { margin-bottom: 10px;}
-.sidebar ul li a{ text-decoration: none;
+.sidebar ul li { 
+  margin-bottom: 50px;}
+.sidebar ul li a{
+  font-size: large; 
+  text-decoration: none;
   color: #000000;
 display: block;
 padding: 10px;
